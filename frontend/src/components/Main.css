@@ -1,0 +1,302 @@
+.base {
+  background-color: #01366a;
+  height: 7401px;
+  width: 100vw;
+}
+
+.round {
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 70px;
+  width: 1050px;
+  border-radius: 29px;
+  padding: 8px;
+  margin: 10px auto;
+}
+
+.paragraph {
+  padding: 2px;
+  margin: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.icon {
+  color: blue;
+}
+
+.details {
+  border-radius: 10px;
+  background-color: blue;
+  border-width: 0;
+  color: white;
+}
+
+/* Main wrapper for card area */
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+/* Each row of cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* 👈 Tighter horizontal and vertical gap */
+  justify-content: center;
+  margin-bottom: 6px; /* 👈 Lower space between card rows */
+}
+
+/* Common card style */
+.blue-card,
+.pink-card,
+.mix-card,
+.purple-card {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 0; /* remove conflicting margins */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Specific background gradients */
+.blue-card {
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+}
+.pink-card {
+  background: linear-gradient(to bottom right, #fc5ae6, #e106e9);
+}
+.mix-card {
+  background: linear-gradient(to bottom right, #fc5ae6, #dd5005, rgb(195, 228, 7));
+}
+.purple-card {
+  background: linear-gradient(to bottom right, #58014d, #742f0a, rgb(26, 45, 102));
+}
+
+/* Icon image */
+.trophy-icon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  bottom: 5px;
+  left: 5px;
+}
+
+/* Label text */
+.popular {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+  text-align: right;
+}
+
+.card2{
+  position: relative;
+  width: 250px;
+  height: 270px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 8px; /* remove conflicting margins */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+
+}
+.win-go{
+    height: 250px;
+    width:200px ;
+}
+
+.lottry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.originals{
+  padding: 5px;
+  margin: 8px;
+  color: white;
+}
+
+.play{
+  padding: 5px;
+  margin: 10px;
+}
+.card3{
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+  position: relative;
+  width: 250px;
+  height: 270px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 8px; /* remove conflicting margins */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.img4{
+  height:250px;
+  width:200px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.img-round{
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+}
+
+.mem{
+  color: white;
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.round2 {
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 70px;
+  width: 700px;
+  border-radius: 29px;
+  padding: 8px;
+  margin: 10px auto;
+}
+
+.cardss1{
+  background-color: white;
+  height:200px;
+  width:150px;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.box{
+  height:70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.new-arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.details2 {
+  border-radius: 50px;
+  background-color: blue;
+  border-width: 0;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+.bgmi{
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 640px;
+  width: 450px;
+  border-radius: 15px;
+
+}
+
+.logo{
+  height: 50px;
+  width:120px;
+  padding: 5px;
+  margin: 6px;
+}
+
+.eighteen{
+  color: red;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+.img-set{
+  height:100px;
+  width: 120px;
+  padding: 5px;
+  margin: 7px;
+}
+
+.low-gap {
+  margin-bottom: 8px; /* Reduce this if needed */
+}
+
+.low-gap-next {
+  margin-top: 8px;
+}
+
+.umberella{
+  color: white;
+  padding: 5px;
+  margin: 3px;
+}
+
+.red{
+  color: red;
+  padding: 4px;
+  margin-top: 7px;
+}
+
+.bgmi2{
+  margin-top: 20px;
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 300px;
+  width: 450px;
+  border-radius: 15px;
+
+
+}
+.Language{
+  color: white;
+  padding: 4px;
+  margin: 3px;
+ border-bottom: 0.5px solid;
+ border-color: white;
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 80px;
+  width: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home{
+  margin-top: 30px;
+  height: 110px;
+  color: white;
+  width: 110px;
+  padding: 5px;
+}
