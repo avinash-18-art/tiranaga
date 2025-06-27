@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: #999; 
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.wallet-container {
+  width: auto; 
+  background-color: #1f2b87;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 100vh;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+
+
+.wallet-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #22338d;
+}
+
+.wallet-header .balance-icon {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.wallet-body {
+  padding: 20px;
+}
+
+.wallet-circles {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.circle {
+  background-color: #2a3db2;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.transfer-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background: linear-gradient(to right, #4ebef4, #3776f0);
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.action {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.game-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card {
+  background-color: #2f3fa0;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.wallet-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #10194e;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.nav-item {
+  text-align: center;
+  color: white;
+}
+
+.center-icon {
+  font-size: 30px;
+  transform: translateY(-15px);
+}

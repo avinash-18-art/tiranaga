@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #010179;
+  padding: 20px;
+  text-align: center;
+}
+
+.long {
+  background-color: rgb(4, 4, 194);
+  height: 11000px;
+  padding: 40px;
+
+  /* 🔥 This is the key */
+  justify-content: center;
+  align-items: center;
+}
+
+
+.best{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

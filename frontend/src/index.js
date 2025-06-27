@@ -5,10 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
+import Language from './components/Language';
+import Announcement from './components/Announcement';
+import Customer from './components/Customer';
+import Begginer from './components/Begginer';
+import About from './components/About';
+import Agency from './components/Agency';
+import Wallet from './components/Wallet';
+import Account from './components/Account';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Activity from './components/Activity';
+
 
 const router = createBrowserRouter([
   {
@@ -19,6 +29,48 @@ const router = createBrowserRouter([
     {
     path: "/Login",
     element: <Login/>,
+  },
+
+    {
+    path: "/Language",
+    element: <Language/>,
+  },
+    {
+    path: "/Announcement",
+    element: <Announcement/>,
+  },
+
+  {
+    path: "/Customer",
+    element: <Customer/>,
+  },
+   {
+    path: "/Begginer",
+    element: <Begginer/>,
+  },
+
+   {
+    path: "/About",
+    element: <About/>,
+  },
+   {
+    path: "/Activity",
+    element: <Activity/>,
+  },
+
+    {
+    path: "/Agency",
+    element: <Agency/>,
+  },
+
+     {
+    path: "/Wallet",
+    element: <Wallet/>,
+  },
+
+     {
+    path: "/Account",
+    element: <Account/>,
   },
 ]);
 
