@@ -1,0 +1,77 @@
+/* Navbar styling */
+.activity-navbar {
+  background-color: #010179;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.activity-heading {
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Main content area */
+.activity-main {
+  background-color:rgba(3, 9, 121, 0.85);;
+  padding: 30px 20px;
+  text-align: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.activity-main p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Card layout */
+.activity-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.activity-card {
+  width: 120px;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: scale(1.05);
+}
+
+.activity-card-icon {
+  font-size: 30px;
+  color: #010179;
+  margin-bottom: 10px;
+}
+
+.activity-card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Image banner */
+.activity-img {
+  max-width: 100%;
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.pop{
+  color: white;
+  font-family: roboto;
+}

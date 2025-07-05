@@ -1,0 +1,115 @@
+.jili-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.jili-navbar {
+  background-color: #002244;
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.jili-heading {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+.jili-main {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(23, 23, 251, 0.05);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 0;
+}
+
+.jili-img-control {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.jili-img-control > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 160px;
+  width: 150px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.jili-img-control > div:hover {
+  transform: translateY(-5px);
+}
+
+.jili-png {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.jili-img-control p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .jili-navbar,
+  .jili-main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .jili-heading {
+    font-size: 22px;
+  }
+
+  .jili-img-control > div {
+    width: 120px;
+    height: auto;
+    padding: 10px 5px;
+  }
+
+  .jili-png {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jili-heading {
+    font-size: 20px;
+  }
+
+  .jili-img-control > div {
+    width: 100px;
+  }
+
+  .jili-png {
+    width: 70px;
+  }
+}

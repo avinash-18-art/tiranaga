@@ -1,0 +1,424 @@
+/* body{
+  background-color: #01366aad !important ;
+  
+} */
+.new {
+  background-color: #01366aad ;
+  height: 8320px;
+  width: 1000px;
+}
+
+.round {
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 70px;
+  width: 90%;
+  max-width: 1050px;
+  border-radius: 29px;
+  padding: 8px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .round {
+    height: 60px;
+    padding: 6px;
+    border-radius: 20px;
+  }
+}
+
+.paragraph {
+  padding: 2px;
+  margin: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: 12px;
+}
+
+.icon {
+  color: blue;
+}
+
+.details {
+  border-radius: 10px;
+  background-color: blue;
+  border-width: 0;
+  color: white;
+}
+
+/* Main wrapper for card area */
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;      /* Reduced top margin */
+  padding: 0 8px;        /* Slightly reduced horizontal padding */
+  gap: 2px;              /* Reduced vertical spacing between child elements */
+  width: 100%;           /* Ensures full width for inner flex layout */
+  box-sizing: border-box;
+}
+
+
+/* Each row of cards */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* 👈 Tighter horizontal and vertical gap */
+  justify-content: center;
+  margin-bottom: 6px; /* 👈 Lower space between card rows */
+}
+
+/* Common card style */
+.blue-card {
+  position: relative;
+  width: 320px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #007BFF; /* Blue */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.pink-card {
+  position: relative;
+  width: 320px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #e83e8c; /* Pink */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.mix-card {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #20c997, #6610f2); /* Teal to Purple */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.purple-card {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #6f42c1; /* Purple */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+/* Specific background gradients */
+.blue-card {
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+}
+.pink-card {
+  background: linear-gradient(to bottom right, #fc5ae6, #e106e9);
+}
+.mix-card {
+  background: linear-gradient(to bottom right, #fc5ae6, #dd5005, rgb(195, 228, 7));
+}
+.purple-card {
+  background: linear-gradient(to bottom right, #58014d, #742f0a, rgb(26, 45, 102));
+}
+
+/* Icon image */
+.trophy-icon {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  bottom: 5px;
+  left: 5px;
+}
+
+/* Label text */
+.popular {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  margin: 0;
+  text-align: right;
+}
+
+.card2{
+  position: relative;
+  width: 250px;
+  height: 270px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 8px; /* remove conflicting margins */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+
+}
+.win-go{
+    height: 250px;
+    width:200px ;
+}
+
+.lottry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.originals{
+  padding: 4px;
+  margin: 4px;
+  color: white;
+}
+
+.play{
+  padding: 5px;
+  margin: 10px;
+}
+.card3{
+  background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
+  position: relative;
+  width: 250px;
+  height: 270px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  margin: 8px; /* remove conflicting margins */
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.img4{
+  height:250px;
+  width:200px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.img-round{
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+}
+
+.mem{
+  color: white;
+  
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.round2 {
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 70px;
+  width: 700px;
+  border-radius: 29px;
+  padding: 8px;
+  margin: 10px auto;
+}
+
+.cardss1{
+  background-color: white;
+  height:200px;
+  width:150px;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.box{
+  height:70px;
+  width: 70px;
+  border-radius: 50px;
+}
+
+.new-arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.details2 {
+  border-radius: 50px;
+  background-color: blue;
+  border-width: 0;
+  color: white;
+  height: 50px;
+  width: 200px;
+}
+
+.bgmi{
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 640px;
+  width: 690px;
+  border-radius: 15px;
+ 
+
+}
+
+.logo{
+  height: 50px;
+  width:120px;
+  padding: 5px;
+  margin: 6px;
+}
+
+.eighteen{
+  color: red;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+.img-set{
+  height:100px;
+  width: 120px;
+  padding: 5px;
+  margin: 7px;
+}
+
+.low-gap {
+  margin-bottom: 8px; /* Reduce this if needed */
+}
+
+.low-gap-next {
+  margin-top: 8px;
+}
+
+.umberella{
+  color: white;
+  padding: 8px;
+  margin: 9px;
+  
+}
+
+.red{
+  color: red;
+  padding: 8px;
+  margin: 9px;
+  margin-top: 7px;
+}
+
+.bgmi2{
+  margin-top: 20px;
+  background-color: rgba(2, 2, 120, 0.477);
+  height: 300px;
+  width: 690px;
+  border-radius: 15px;
+  
+
+
+}
+.Language{
+  color: grey;
+  padding: 4px;
+  margin: 3px;
+ border-bottom: 0.5px solid;
+ border-color: grey;
+ text-align: center;
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: rgba(1, 1, 68, 0.477);
+  height: 70px;
+  width: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.home{
+  margin-top: 30px;
+  height: 110px;
+  color: white;
+  width: 110px;
+  padding: 5px;
+ 
+}
+.sports{
+  display: flex;
+  justify-content: center;
+}
+
+.rummy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.background-arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-manage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.trinaga-logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.set{
+  text-decoration: none;
+}
+
+.orange-card{
+  position: relative;
+  width: 200px;
+  height: 150px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #dd581b, #e3f704); /* Teal to Purple */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+

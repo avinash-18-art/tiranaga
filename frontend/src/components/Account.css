@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.account-navbar {
+  background-color: #010179;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.account-heading {
+  margin: 0;
+  font-size: 28px;
+}
+
+.account-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.account-img12 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.account-information {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.account-info-item {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.account-border {
+  background-color: rgba(0, 0, 255, 0.1);
+  height: 200px;
+  width: 500px;
+  border-radius: 8px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.account-icon-arr {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.account-border2 {
+  margin-top: 8px;
+  background-color: rgba(0, 0, 255, 0.1);
+  height: 80px;
+  width: 530px;
+  border-radius: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.account-manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-qr {
+  background-color: #01017983;
+  border-radius: 45px;
+  height: 50px;
+  width: 530px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-code {
+  color: white;
+  margin: 5px;
+}
+
+.account-border3 {
+  background-color: rgba(0, 0, 255, 0.1);
+  height: 200px;
+  width: 500px;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.account-heading3 {
+  margin-top: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

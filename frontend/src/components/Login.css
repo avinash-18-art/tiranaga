@@ -1,0 +1,437 @@
+/* Navy Blue + Blue Theme */
+.loginpage-container {
+  background-color: #0b1437; /* dark navy */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+}
+
+.loginpage-box {
+  background-color: #1c2454; /* navy blue */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.loginpage-box h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.loginpage-subtext {
+  color: #d3d3d3;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.loginpage-tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131a3d;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginpage-tabs .tab {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  color: #ccc;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.loginpage-tabs .tab.active {
+  background-color: #0ea5ea; /* sky blue */
+  color: #fff;
+}
+
+.loginpage-form {
+  width: 100%;
+}
+
+.loginpage-form label {
+  display: block;
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.loginpage-phone-wrapper,
+.loginpage-password-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #243162;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+.loginpage-country-code {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.loginpage-form input[type="text"],
+.loginpage-form input[type="email"],
+.loginpage-form input[type="password"] {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  outline: none;
+}
+
+.loginpage-password-wrapper .loginpage-eye-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.loginpage-remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: white;
+  font-size: 14px;
+}
+
+.loginpage-remember input {
+  margin-right: 8px;
+}
+
+.loginpage-form button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #0ea5ea, #2b6cb0); /* blue gradient */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.loginpage-form button:hover {
+  opacity: 0.9;
+}
+
+.loginpage-register {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #0ea5ea;
+  color: #0ea5ea;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.loginpage-register:hover {
+  background-color: #0ea5ea;
+  color: white;
+}
+
+.loginpage-toggle {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #c0c0c0;
+  text-align: center;
+}
+
+.loginpage-link-button {
+  background: none;
+  border: none;
+  color: #0ea5ea;
+  font-weight: 600;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loginpage-link-button:hover {
+  text-decoration: underline;
+}
+
+.loginpage-profile {
+  text-align: center;
+  color: white;
+}
+
+.loginpage-profile button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #0ea5ea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.loginpage-fullname,
+.loginpage-phone {
+  background-color: #243162;
+  color: white;
+  border: 1px solid #3a4a8c;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.loginpage-fullname::placeholder,
+.loginpage-phone::placeholder {
+  color: #a0aec0;
+}
+
+.loginpage-fullname,
+.loginpage-phone,
+.loginpage-email,
+.loginpage-password {
+  background-color: #243162;
+  color: white;
+  border: 1px solid #3a4a8c;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.loginpage-fullname::placeholder,
+.loginpage-phone::placeholder,
+.loginpage-email::placeholder,
+.loginpage-password::placeholder {
+  color: #a0aec0;
+}
+
+.loginpage-container {
+  background-color: #1a1f3c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.loginpage-box {
+  background-color: #2c376e;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginpage-box h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.loginpage-fullname,
+.loginpage-phone,
+.loginpage-email,
+.loginpage-password {
+  background-color: #243162;
+  color: white;
+  border: 1px solid #3a4a8c;
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.loginpage-fullname::placeholder,
+.loginpage-phone::placeholder,
+.loginpage-email::placeholder,
+.loginpage-password::placeholder {
+  color: #a0aec0;
+}
+
+.loginpage-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.loginpage-form button:hover {
+  background-color: #2563eb;
+}
+
+.loginpage-toggle {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #e2e8f0;
+  text-align: center;
+}
+
+.loginpage-link-button {
+  background: none;
+  border: none;
+  color: #60a5fa;
+  font-weight: 600;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loginpage-link-button:hover {
+  text-decoration: underline;
+}
+
+.loginpage-profile button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loginpage-container {
+  background-color: #0e143f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.loginpage-box {
+  background-color: #1c2566;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginpage-box h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.loginpage-input {
+  background-color: #243162;
+  color: white;
+  border: 1px solid #3a4a8c;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 15px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+.loginpage-input::placeholder {
+  color: #a0aec0;
+}
+
+.loginpage-input:focus {
+  outline: none;
+  border-color: #63b3ed;
+}
+
+.loginpage-button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #16c9f6, #3f87f5);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.loginpage-button:hover {
+  background: linear-gradient(to right, #1ea5ff, #2e67ee);
+}
+
+.loginpage-toggle {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+  text-align: center;
+}
+
+.loginpage-link-button {
+  background: none;
+  border: none;
+  color: #63b3ed;
+  font-weight: 600;
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loginpage-link-button:hover {
+  text-decoration: underline;
+}
+
+.loginpage-profile button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+

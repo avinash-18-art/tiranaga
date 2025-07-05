@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgb(1, 1, 121);
+  height: 80px;
+  width: auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 5px;
+}
+
+.middle{
+  background-color: rgb(4, 4, 194);
+  height: 500px;
+  width: auto;
+}
+
+
+/* Center the select dropdown */
+.naman{
+  background-color: rgb(25, 25, 239);
+  border-radius: 5px;
+  color: white;
+  border-width: 0;
+  padding: 7px;
+  margin: 10px;
+}
+
+

@@ -1,0 +1,46 @@
+/* Top bar */
+.add-navbar {
+  background-color: #010179;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading text inside navbar */
+.add-heading {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Main body section */
+.add-main {
+  background-color: rgb(4, 4, 194);
+  height: 800px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card inside main */
+.add-card {
+  background-color: rgba(3, 9, 121, 0.85);
+  height: auto;
+  width: 560px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Card paragraph text */
+.add-paragraph {
+  color: white;
+}
+
+/* Footer text */
+.add-prg {
+  color: white;
+  text-align: center;
+}
