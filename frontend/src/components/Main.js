@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 
 function Main() {
   return (
-    <div className="base">
+    <div className='new'>
       <Carousel>
         <Carousel.Item>
           <img
@@ -326,32 +326,32 @@ function Main() {
 <div className='lottry'>
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190224r2r8.png" />
+<Link to="/Jili"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190224r2r8.png" /></Link>
 </div>
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026184337uvl1.png" />
+<Link to="/Pg"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026184337uvl1.png" /></Link>
 </div>
 
 
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20250609115513sngl.png" />
+<Link to="/Game"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20250609115513sngl.png" /></Link>
 </div>
 </div>
 
 <div className='lottry'>
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190434t4n2.png" />
+<Link to="/SmallGame"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190434t4n2.png" /></Link>
 </div>
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190401r1ys.png" />
+<Link to="/HotGame"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190401r1ys.png" /></Link>
 </div>
 
 <div className='card3'>
-<img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190216pu1u.png" />
+<Link to="/Evolution"><img className="img4"src="https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20231026190216pu1u.png" /></Link>
 </div>
 </div>
 </div>
@@ -437,7 +437,7 @@ function Main() {
 <div className='wrap'>
 <h4 className='originals'>Rummy</h4>
 <div className='rummy'>
-<img className="img4" src='https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20240814202752omb3.png'/>
+<Link to="/Poker"><img className="img4" src='https://ossimg.tirangaagent.com/Tiranga/vendorlogo/vendorlogo_20240814202752omb3.png'/></Link>
 
 </div>
 </div>
@@ -629,7 +629,7 @@ function Main() {
 <div className='background-arrange'>
 <div className='bgmi2'>
   <Link className='set' to="/Language"><h4 className='Language'><GrLanguage /> Language      </h4></Link>
-  <Link className='set' to="/Announcement"><h4 className='Language'><TfiAnnouncement /> Annoucement</h4></Link>
+  <Link className='set' to="/Add"><h4 className='Language'><TfiAnnouncement /> Annoucement</h4></Link>
   <Link className='set' to="/Customer"><h4 className='Language'><RiCustomerService2Line /> 24/7 Customer Service</h4></Link>
   <Link  className='set' to="/Begginer"><h4 className='Language'><IoBookSharp /> Beginners Guide</h4></Link>
    <Link className='set' to="/About"><h4 className='Language'><SiBlockchaindotcom /> About Us</h4></Link>

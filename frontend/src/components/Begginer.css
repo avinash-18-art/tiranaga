@@ -1,22 +1,48 @@
-.navbar {
-  background-color: #010179;
+/* General container alignment */
+.begginer-long {
+  display: flex;
+  justify-content: center;
   padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Content box */
+.begginer-best {
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(3, 9, 121, 0.85);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
   text-align: center;
 }
 
-.long {
-  background-color: rgb(4, 4, 194);
-  height: 11000px;
-  padding: 40px;
-
-  /* 🔥 This is the key */
-  justify-content: center;
-  align-items: center;
+/* Heading styling */
+.begginer-best h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: white;
+  font-family: sans-serif;
 }
 
+/* Image responsiveness */
+.begginer-best img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+  border-radius: 8px;
+}
 
-.best{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+/* Navbar styling */
+.begginer-navbar {
+  background-color: #002244;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.begginer-heading {
+  margin: 0;
+  font-size: 24px;
+  font-family: sans-serif;
 }

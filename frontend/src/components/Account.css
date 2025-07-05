@@ -4,29 +4,27 @@ body {
   background-color: #f4f4f4;
 }
 
-.navbar {
+.account-navbar {
   background-color: #010179;
   padding: 20px;
   text-align: center;
   color: white;
 }
 
-.heading {
+.account-heading {
   margin: 0;
   font-size: 28px;
 }
 
-.main {
+.account-main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;  /* Optional, to start from top */
-  padding: 10px 0;              /* Reduce gap */
-  
+  justify-content: flex-start;
+  padding: 10px 0;
 }
 
-
-.img12 {
+.account-img12 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -34,72 +32,79 @@ body {
   margin-bottom: 20px;
 }
 
-.information {
+.account-information {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.info-item {
+.account-info-item {
   font-size: 16px;
   color: #333;
   margin: 5px 0;
 }
 
-.border {
-
+.account-border {
   background-color: rgba(0, 0, 255, 0.1);
   height: 200px;
   width: 500px;
   border-radius: 8px;
-  
-}
-.icon-arr{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
-.border2{
-    margin-top: 8px;
-  background-color: rgba(0, 0, 255, 0.1);
-  height: 80px;
-  width: 520px;
-  border-radius: 58px;
-
-}
-
-.manage{
+.account-icon-arr {
   display: flex;
-  justify-content: center; /* horizontal center */
+  justify-content: space-around;
   align-items: center;
 }
 
-.qr{
-    background-color: #01017983;
-    border-radius: 45px;
-    height: 50px;
-    width:530px;
-    margin-top: 5px;
-    
+.account-border2 {
+  margin-top: 8px;
+  background-color: rgba(0, 0, 255, 0.1);
+  height: 80px;
+  width: 530px;
+  border-radius: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: roboto;
+  font-size: 16px;
 }
 
-.code{
-    color: white;
-    margin: 5px;
+.account-manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.border3{
+.account-qr {
+  background-color: #01017983;
+  border-radius: 45px;
+  height: 50px;
+  width: 530px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-code {
+  color: white;
+  margin: 5px;
+}
+
+.account-border3 {
   background-color: rgba(0, 0, 255, 0.1);
   height: 200px;
   width: 500px;
   border-radius: 8px;
   margin-top: 8px;
-
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.heading3{
-    margin-top: 4px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+.account-heading3 {
+  margin-top: 4px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-

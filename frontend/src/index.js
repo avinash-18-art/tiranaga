@@ -6,13 +6,22 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
 import Language from './components/Language';
-import Announcement from './components/Announcement';
+import i18n from './components/i18n';
 import Customer from './components/Customer';
 import Begginer from './components/Begginer';
 import About from './components/About';
 import Agency from './components/Agency';
 import Wallet from './components/Wallet';
 import Account from './components/Account';
+import Poker from './components/Poker';
+import Add from './components/Add';
+import Jili from './components/Jili';
+import Pg from './components/Pg';
+import Game from './components/Game';
+import SmallGame from './components/SmallGame';
+import HotGame from './components/HotGame';
+import Evolution from './components/Evolution';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -35,10 +44,7 @@ const router = createBrowserRouter([
     path: "/Language",
     element: <Language/>,
   },
-    {
-    path: "/Announcement",
-    element: <Announcement/>,
-  },
+  
 
   {
     path: "/Customer",
@@ -72,10 +78,51 @@ const router = createBrowserRouter([
     path: "/Account",
     element: <Account/>,
   },
+
+     {
+    path: "/Poker",
+    element: <Poker/>,
+  },
+
+    {
+    path: "/Add",
+    element: <Add/>,
+  },
+
+     {
+    path: "/Jili",
+    element: <Jili/>,
+  },
+
+     {
+    path: "/Pg",
+    element: <Pg/>,
+  },
+
+      {
+    path: "/Game",
+    element: <Game/>,
+  },
+
+     {
+    path: "/SmallGame",
+    element: <SmallGame/>,
+  },
+
+  {
+    path: "/HotGame",
+    element: <HotGame/>,
+  },
+
+    {
+    path: "/Evolution",
+    element: <Evolution/>,
+  },
 ]);
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 root.render(
   <React.StrictMode>
    <RouterProvider router={router} />

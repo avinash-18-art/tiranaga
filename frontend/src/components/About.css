@@ -1,5 +1,31 @@
-.navbar {
+/* Navbar for About */
+.about-navbar {
   background-color: #010179;
   padding: 20px;
   text-align: center;
+}
+
+/* Heading inside navbar */
+.about-heading {
+  color: white;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Main content */
+.about-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;
+  background-color: rgba(3, 9, 121, 0.85);
+  min-height: calc(100vh - 80px);
+}
+
+/* Responsive image */
+.about-main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
 }

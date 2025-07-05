@@ -1,8 +1,39 @@
-.main {
-  background-color: rgb(4, 4, 194);
-  height: 800px;
-  padding: 40px;
-  
+/* Wrapper styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #3205d59a;
+}
+
+/* Navbar styling */
+.customer-navbar {
+  background-color: #003366;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.customer-heading {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Main content area */
+.customer-main {
+  display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px 15px;
+  background-color: rgba(3, 9, 121, 0.85);
+  min-height: calc(100vh - 80px);
+}
+
+/* Image responsiveness */
+.customer-main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
 }

@@ -1,6 +1,10 @@
-.base {
-  background-color: #01366a;
-  height: 8500px;
+/* body{
+  background-color: #01366aad !important ;
+  
+} */
+.new {
+  background-color: #01366aad ;
+  height: 8320px;
   width: 1000px;
 }
 
@@ -67,7 +71,7 @@
 /* Common card style */
 .blue-card {
   position: relative;
-  width: 350px;
+  width: 320px;
   height: 150px;
   border-radius: 15px;
   background-color: #007BFF; /* Blue */
@@ -82,7 +86,7 @@
 
 .pink-card {
   position: relative;
-  width: 300px;
+  width: 320px;
   height: 150px;
   border-radius: 15px;
   background-color: #e83e8c; /* Pink */

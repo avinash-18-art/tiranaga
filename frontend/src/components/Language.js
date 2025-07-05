@@ -1,19 +1,24 @@
 import React from 'react';
-import './Language.css'; // Make sure this file exists in the same directory
+import { useTranslation } from 'react-i18next';
+import './Language.css';
 
 const Language = () => {
+  const { t, i18n } = useTranslation();
+
+  const handleChange = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
   return (
     <div>
-      {/* Top Navbar */}
       <div className='navbar'>
-        <h1 className='lang'>Language</h1>
+        <h1 className='lang'>{t('Language')}</h1>
       </div>
 
-      {/* Centered Dropdown */}
       <div className='middle'>
-        <select className='naman'>
-          <option value="hindi">Hindi</option>
-          <option value="english">English</option>
+        <select className='naman' onChange={handleChange}>
+          <option value="hi">Hindi</option>
+          <option value="en">English</option>
         </select>
       </div>
     </div>
