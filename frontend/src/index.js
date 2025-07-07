@@ -21,12 +21,14 @@ import Game from './components/Game';
 import SmallGame from './components/SmallGame';
 import HotGame from './components/HotGame';
 import Evolution from './components/Evolution';
+import Download from './components/Download';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import Activity from './components/Activity';
+
 
 
 const router = createBrowserRouter([
@@ -117,6 +119,11 @@ const router = createBrowserRouter([
     {
     path: "/Evolution",
     element: <Evolution/>,
+  },
+
+     {
+    path: "/Download",
+    element: <Download/>,
   },
 ]);
 

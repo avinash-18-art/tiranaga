@@ -633,7 +633,7 @@ function Main() {
   <Link className='set' to="/Customer"><h4 className='Language'><RiCustomerService2Line /> 24/7 Customer Service</h4></Link>
   <Link  className='set' to="/Begginer"><h4 className='Language'><IoBookSharp /> Beginners Guide</h4></Link>
    <Link className='set' to="/About"><h4 className='Language'><SiBlockchaindotcom /> About Us</h4></Link>
-   <h4 className='Language'><IoMdDownload /> Download App</h4>
+   <Link className='set' to="/Download"><h4 className='Language'><IoMdDownload /> Download App</h4></Link>
 </div>
 </div>
 
