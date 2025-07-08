@@ -9,6 +9,7 @@ import Wallet from './components/Wallet';
 
 
 
+
 function App() {
   const { t } = useTranslation();
 
@@ -16,6 +17,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      
       
       
       

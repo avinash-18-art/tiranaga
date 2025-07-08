@@ -195,7 +195,7 @@ function Main() {
 <div className='lottry'>
 <div className='card2'>
 <p>Win Go</p>
-<img className="win-go" src='https://ossimg.tirangaagent.com/Tiranga/lotterycategory/lotterycategory_20240124125544jt65.png'/>
+<Link to="/Go"><img className="win-go" src='https://ossimg.tirangaagent.com/Tiranga/lotterycategory/lotterycategory_20240124125544jt65.png'/></Link>
 </div>
 
 <div className='card2'>
@@ -213,7 +213,7 @@ function Main() {
 
 <div className='card2'>
 <p>Trx Win Go</p>
-<img className="win-go" src='https://ossimg.tirangaagent.com/Tiranga/lotterycategory/lotterycategory_20240124125606db4a.png'/>
+<Link to="/Go"><img className="win-go" src='https://ossimg.tirangaagent.com/Tiranga/lotterycategory/lotterycategory_20240124125606db4a.png'/></Link>
 </div>
 
 <div className='card2'>

@@ -22,7 +22,7 @@ import SmallGame from './components/SmallGame';
 import HotGame from './components/HotGame';
 import Evolution from './components/Evolution';
 import Download from './components/Download';
-
+import Go from './components/Go';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -124,6 +124,12 @@ const router = createBrowserRouter([
      {
     path: "/Download",
     element: <Download/>,
+  },
+
+  
+     {
+    path: "/Go",
+    element: <Go/>,
   },
 ]);
 
