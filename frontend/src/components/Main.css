@@ -4,15 +4,14 @@
 } */
 .new {
   background-color: #01366aad ;
-  height: 8320px;
+  height: 8000px;
   width: 1000px;
 }
 
 .round {
   background-color: rgba(2, 2, 120, 0.477);
   height: 70px;
-  width: 90%;
-  max-width: 1050px;
+  width:680px;
   border-radius: 29px;
   padding: 8px;
   margin: 10px auto;
@@ -46,7 +45,7 @@
   color: white;
 }
 
-/* Main wrapper for card area */
+
 .wrap {
   display: flex;
   flex-direction: column;
@@ -59,7 +58,7 @@
 }
 
 
-/* Each row of cards */
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -68,11 +67,11 @@
   margin-bottom: 6px; /* 👈 Lower space between card rows */
 }
 
-/* Common card style */
+
 .blue-card {
   position: relative;
   width: 320px;
-  height: 150px;
+  height: 170px;
   border-radius: 15px;
   background-color: #007BFF; /* Blue */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -87,7 +86,7 @@
 .pink-card {
   position: relative;
   width: 320px;
-  height: 150px;
+  height: 170px;
   border-radius: 15px;
   background-color: #e83e8c; /* Pink */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -101,8 +100,8 @@
 
 .mix-card {
   position: relative;
-  width: 200px;
-  height: 150px;
+  width: 210px;
+  height: 170px;
   border-radius: 15px;
   background: linear-gradient(135deg, #20c997, #6610f2); /* Teal to Purple */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -117,7 +116,7 @@
 .purple-card {
   position: relative;
   width: 250px;
-  height: 150px;
+  height: 170px;
   border-radius: 15px;
   background-color: #6f42c1; /* Purple */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -147,10 +146,19 @@
 /* Icon image */
 .trophy-icon {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   bottom: 5px;
   left: 5px;
+}
+
+.unique-icon{
+  position: absolute;
+   width: 150px;
+  height: 150px;
+  bottom: 5px;
+  left: 5px;
+  
 }
 
 
@@ -164,8 +172,8 @@
 
 .card2{
   position: relative;
-  width: 250px;
-  height: 270px;
+  width: 210px;
+  height: 250px;
   border-radius: 15px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   padding: 5px;
@@ -177,7 +185,7 @@
 
 }
 .win-go{
-    height: 250px;
+    height: 230px;
     width:200px ;
 }
 
@@ -202,8 +210,8 @@
 .card3{
   background: linear-gradient(to bottom right, #5a8dfc, #7dcaff);
   position: relative;
-  width: 250px;
-  height: 270px;
+  width: 210px;
+  height: 250px;
   border-radius: 15px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   padding: 5px;
@@ -219,6 +227,14 @@
   width:200px;
   padding: 5px;
   margin: 8px;
+}
+
+.img5{
+  height:225px;
+  width:188px;
+  padding: 5px;
+  margin: 8px;
+
 }
 
 .img-round{
@@ -250,16 +266,24 @@
 .cardss1{
   background-color: white;
   height:200px;
-  width:150px;
+  width:180px;
   border-radius: 8px;
   padding: 8px;
   margin: 10px;
+ 
+}
+
+.coupan{
+  text-align: center;
+  margin-top: auto;
+
 }
 
 .box{
   height:70px;
   width: 70px;
   border-radius: 50px;
+  font-family: roboto;
 }
 
 .new-arrange{
@@ -280,7 +304,7 @@
 
 .bgmi{
   background-color: rgba(2, 2, 120, 0.477);
-  height: 640px;
+  height: 620px;
   width: 690px;
   border-radius: 15px;
  
@@ -310,11 +334,32 @@
 }
 
 .low-gap {
-  margin-bottom: 8px; /* Reduce this if needed */
+  margin-bottom: 0px; /* Reduce this if needed */
 }
 
 .low-gap-next {
-  margin-top: 8px;
+  margin-top: 0px;
+}
+
+.parent {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.low-gap {
+  margin: 0;
+  line-height: 1;
+}
+
+.low-gap {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1;
 }
 
 .umberella{
@@ -334,13 +379,13 @@
 .bgmi2{
   margin-top: 20px;
   background-color: rgba(2, 2, 120, 0.477);
-  height: 300px;
+  height: 267px;
   width: 690px;
   border-radius: 15px;
-  
-
-
 }
+
+
+
 .Language{
   color: grey;
   padding: 4px;
@@ -409,7 +454,7 @@
 .orange-card{
   position: relative;
   width: 200px;
-  height: 150px;
+  height: 170px;
   border-radius: 15px;
   background: linear-gradient(135deg, #dd581b, #e3f704); /* Teal to Purple */
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -422,3 +467,96 @@
 
 }
 
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Page Wrapper === */
+
+/* === Main Section === */
+.bgmi {
+  padding: 12px;
+  background-color: #243a7c;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  height: 412px;
+}
+
+/* === Top Logo + 18+ Icon === */
+.trinaga-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+/* Make the icon slightly smaller */
+.eighteen {
+  font-size: 20px;
+  color: red;
+}
+
+/* === Rows of Logos === */
+.logo-manage {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0;
+}
+
+.low-gap,
+.low-gap-next {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.img-set {
+  height: 50px;
+  width: 130px;
+}
+
+/* === Paragraphs === */
+.umberella {
+  font-size: 14px;
+  color: #f0f0f0;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin: 4px 0;
+  padding: 0 12px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* === Warning Messages === */
+.red {
+  background-color: #e53935;
+  color: white;
+  padding: 6px 12px;
+  margin: 6px auto;
+  font-size: 12.5px;
+  max-width: 400px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.pr-arrange{
+  font-family: roboto;
+  font-weight: 500;
+}
