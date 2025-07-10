@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/Login';
 import Language from './components/Language';
-import i18n from './components/i18n';
+
 import Customer from './components/Customer';
 import Begginer from './components/Begginer';
 import About from './components/About';
